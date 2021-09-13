@@ -18,7 +18,7 @@ Developing Software
 
 A step by step series to get a Development Environment running 
 ```
-Download the Java JDK
+Download Java JDK
 ```
 1. Download the installer program from Oracle "Download Java" page: https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
 2. Download the correspondents JDK executable file to your OS (Operating System).
@@ -26,7 +26,7 @@ Download the Java JDK
 3. Select your installation folder
 
 ```
-Set up Java JDK envir or change the PATH system variable
+Set up Java JDK environment or change the PATH system variable
 ```
 1. In Search, search for and then select: System (Control Panel)
 2. Click the Advanced system settings link.
@@ -39,7 +39,7 @@ Set up Java JDK envir or change the PATH system variable
 8. Reopen Command prompt window, and run the command line: java --version
 
 ```
-Download the Eclipse Installer
+Download Eclipse Installer
 ```
 1. Download Eclipse Installer from http://www.eclipse.org/downloads
 2. Start the Eclipse Installer executable
@@ -59,6 +59,31 @@ Make sure you have a JDK installed on your system. Refer to Apache Maven System 
    %M2_HOME% and %MAVEN_HOME%\bin
 6. Verify Apache Maven Installation
 In the opened CMD window, type the following command and press Enter: mvn --version
+
+## Install Cucumber Plugin
+```
+Installing Cucumber plugin in eclipse
+```
+Cucumber plugin & Natural plugin (optional) from Eclipse Marketplace
+
+```
+Installing Cucumber plugin in IntelliJ
+```
+
+## Create Maven Project and update pom.xml
+Add the following dependencies to the pom.xml file 
+1. Cucumber-core
+2. Cucumber-html
+3. Cucumber-java
+4. Cucumber-junit
+5. Cucumber-jvm-deps
+6. Cucumber-reporting
+7. Cobertura code coverage
+8. Hamcrest-core
+9. Gherkin
+10. Junit
+11. Selenium-java
+12. Log4j
 
 ## Built With
 
