@@ -1,22 +1,21 @@
 # Cucumber-JUnit-BDD
-```
+
 Create a script by using Maven Build framework for following steps:
-```
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-```
-Developing Software 
-```
-1. Download Java JDK 
-2. Download Eclipse or IntelliJ IDEA
-3. Download Apache Maven
+
+1. Java JDK installed
+2. Eclipse or IntelliJ IDEA installed
+3. Apache Maven installed
 
 ### Installing
 
 A step by step series to get a Development Environment running 
+
 ```
 Download Java JDK
 ```
@@ -64,7 +63,9 @@ In the opened CMD window, type the following command and press Enter: mvn --vers
 ```
 Installing Cucumber plugin in eclipse
 ```
-Cucumber plugin & Natural plugin (optional) from Eclipse Marketplace
+ - Cucumber plugin & Natural plugin (optional) from Eclipse Marketplace
+ - The Cucumber Eclipse plugin is a plugin that allows eclipse to understand the Gherkin syntax. 
+ - The Cucumber Eclipse Plugin highlights the keywords present in Feature File.
 
 ```
 Installing Cucumber plugin in IntelliJ
