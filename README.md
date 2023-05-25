@@ -1,6 +1,6 @@
 # Cucumber-JUnit-BDD
 
-Create a script by using Maven Build framework for following steps:
+Cucumber is a test automation tool following the principles of Behavioral Driven Development (BDD) and living documentation. Cucumber is written in plain English text called Gherkin. It is defined as a scenario of inputs, actions and outcomes. Every Gherkin step is “glued” to a step definition method that executes the step, using annotations and regular expressions.
 
 ## Getting Started
 
@@ -8,9 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-1. Java JDK installed
-2. Eclipse or IntelliJ IDEA installed
-3. Apache Maven installed
+ - [Java](https://www.oracle.com/java/) 8 * or higher is needed for ExtentReport5
+ - [Maven](https://maven.apache.org/) or Gradle - Dependency Management 
+ - JAVA IDE - (like [Eclipse](https://www.eclipse.org/), IntelliJ, or soon)
+ - [JUnit](https://junit.org/) - Testing Framework
+ - Cucumber Eclipse plugin (in case using Eclipse)
 
 ### Installing
 
@@ -71,7 +73,7 @@ Installing Cucumber plugin in eclipse
 Installing Cucumber plugin in IntelliJ
 ```
 
-## Create Maven Project and update pom.xml
+## Step 1 – Create Maven Project & Add Maven dependencies to pom.xml
 Add the following dependencies to the pom.xml file 
 1. Cucumber-core
 2. Cucumber-html
@@ -85,6 +87,12 @@ Add the following dependencies to the pom.xml file
 10. Junit
 11. Selenium-java
 12. Log4j
+
+## Step 2: Create a feature file in src/test/resources/
+
+## Step 3: Create a Step Definition file in src/test/java
+
+## Step 4: Create a Cucumber Test Runner class in src/test/java
 
 ## Built With
 
